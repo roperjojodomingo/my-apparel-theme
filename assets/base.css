@@ -3596,7 +3596,7 @@ details-disclosure > details {
   }
 }
 
-.collection-list .collection-list_item:has(a[href="/collections/featured-products"]) {
+.collection-list .collection-list__item:has(a[href="/collections/featured-products"]) {
   display: none
 }
 
