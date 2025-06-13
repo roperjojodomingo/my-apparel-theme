@@ -15,8 +15,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Level up your wardrobe",
+            "heading_size": "h1"
           }
         },
         "button": {
@@ -36,8 +36,9 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/tshirts.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
