@@ -101,7 +101,7 @@
         "testimonial_iyeMzY": {
           "type": "testimonial",
           "settings": {
-            "customer_name": "Melissa Rodriguez",
+            "customer_name": "Michael Reyes",
             "customer_testimonial": "Their customer service was super helpful when I ordered the wrong size. Exchanging was fast and easy!"
           },
           "blocks": {}
@@ -145,7 +145,7 @@
           "type": "testimonial",
           "name": "Testimonial",
           "settings": {
-            "customer_name": "Rachel Foster",
+            "customer_name": "Jonathan Brooks",
             "customer_testimonial": "They have the best seasonal drops. Every time they launch something new, I’m there."
           },
           "blocks": {}
