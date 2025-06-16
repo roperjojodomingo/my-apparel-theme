@@ -3,6 +3,9 @@
 
 <div class="testimonials">
   <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+  {%- if section.settings.description != blank -%}
+    <p>{{ section.settings.description }}</p>  
+  {%- endif -%}
 </div>
 
 {% schema %}
