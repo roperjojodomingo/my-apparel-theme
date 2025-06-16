@@ -8,6 +8,16 @@
 {% endcomment %}
 
 {{ 'testimonial-block.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .testimonial {
+    font-family: {{ settings.testimonial_font.family }}, sans-serif;
+    border-radius: {{ settings.border_radius }}px;
+    background-color: {{ settings.background_color }};
+    border: 1px solid {{ settings.border_color }};
+    box-shadow: 0 4px 10px {{ settings.shadow_color }};
+  }
+{%- endstyle -%}
+
 <div class="testimonial">
   <div class="testimonial-content">
     <p class="quotation">“</p>
