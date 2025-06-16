@@ -58,7 +58,7 @@
         "heading_size": "h2",
         "description": "",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "uppercase",
         "columns_desktop": 4,
         "enable_desktop_slider": false,
         "full_width": false,
@@ -80,7 +80,10 @@
     "testimonial_list_PWqeq9": {
       "type": "testimonial-list",
       "name": "Testimonials Section",
-      "settings": {}
+      "settings": {
+        "heading": "Testimonials",
+        "heading_size": "h2"
+      }
     }
   },
   "order": [
