@@ -2,8 +2,6 @@
   /* font-family: 'Playfair Display', serif; */
   padding-left: 24px;
   padding-right: 24px;
-  background-color: var(--color-background);
-  color: var(--color-foreground);
 }
 
 .testimonials h2 {
