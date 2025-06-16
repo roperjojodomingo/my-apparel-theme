@@ -26,6 +26,11 @@
   text-align: center;
 }
 
+.testimonial-divider {
+  height: 1px;
+  width: 100px;
+}
+
 .testimonial-image {
   width: 40px;
   height: 40px;
