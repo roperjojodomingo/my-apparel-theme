@@ -1,125 +1,128 @@
-
 {{ 'testimonials.css' | asset_url | stylesheet_tag }}
 
-<div class="testimonials testimonial-padding">
-  <h2 class="header-{{ section.settings.heading_size }} text-{{ section.settings.header_alignment }}">{{ section.settings.heading }}</h2>
+<div class="testimonials testimonials-padding">
+  <h2 class="header-{{ section.settings.heading_size }} text-{{ section.settings.header_alignment }}">
+    {{ section.settings.heading }}
+  </h2>
   {%- if section.settings.description != blank -%}
-    <p class="text-{{ section.settings.description_alignment }} text-{{ section.settings.description_style }}">{{ section.settings.description }}</p>  
+    <p class="text-{{ section.settings.description_alignment }} text-{{ section.settings.description_style }}">
+      {{ section.settings.description }}
+    </p>
   {%- endif -%}
 
-   {% content_for 'blocks' %}
+  {% content_for 'blocks' %}
 </div>
 
 {%- style -%}
-  .testimonial-padding {
+  .testimonials-padding {
     padding-top: {{ section.settings.top_padding }}px;
     padding-bottom: {{ section.settings.bottom_padding }}px;
   }
 {%- endstyle -%}
 
 {% schema %}
-  {
-    "name": "Testimonials",
-    "blocks": [{ "type": "testimonial" }],
-    "settings": [
-      {
-        "type": "header",
-        "content": "Text"
-      },
-      {
-        "type": "inline_richtext",
-        "id": "heading",
-        "label": "Heading",
-        "default": "Testimonials",
-      },
-      {
-        "type": "select",
-        "id": "header_alignment",
-        "label": "Header alignment",
-        "default": "left",
-        "options": [
-          { "value": "left", "label": "Left" },
-          { "value": "center", "label": "Center" },
-          { "value": "right", "label": "Right" }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "heading_size",
-        "label": "Heading size",
-        "default": "medium",
-        "options": [
-          { "value": "small", "label": "Small" },
-          { "value": "medium", "label": "Medium" },
-          { "value": "large", "label": "Large" },
-          { "value": "xlarge", "label": "Extra large" },
-          { "value": "xxlarge", "label": "Extra extra Large" }
-        ]
-      },
-      {
-        "type": "inline_richtext",
-        "id": "description",
-        "label": "Description",
-      },
-      {
-        "type": "select",
-        "id": "description_alignment",
-        "label": "Description alignment",
-        "default": "left",
-        "options": [
-          { "value": "left", "label": "Left" },
-          { "value": "center", "label": "Center" },
-          { "value": "right", "label": "Right" }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "description_style",
-        "label": "Description style",
-        "default": "body",
-        "options": [
-          { "value": "body", "label": "Body" },
-          { "value": "subtitle", "label": "Subtitle" },
-          { "value": "uppercase", "label": "Uppercase" },
-        ]
-      },
-      {
-        "type": "header",
-        "content": "Testimonial layout"
-      },
-      {
-        "type": "color_scheme",
-        "id": "color_scheme",
-        "default": "scheme_1",
-        "label": "Color scheme"
-      },
-      {
-        "type": "header",
-        "content": "Padding"
-      },
-      {
-        "type": "range",
-        "id": "top_padding",
-        "label": "Top",
-        "min": 0,
-        "max": 100,
-        "step": 4,
-        "unit": "px",
-        "default": 40
-      },
-      {
-        "type": "range",
-        "id": "bottom_padding",
-        "label": "Bottom",
-        "min": 0,
-        "max": 100,
-        "step": 4,
-        "unit": "px",
-        "default": 40
-      }
-    ],
-    "presets": [
-      {"name": "Testimonials"}
-    ],
-  }
+{
+  "name": "Testimonials",
+  "blocks": [{ "type": "testimonial" }],
+  "settings": [
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Testimonials",
+    },
+    {
+      "type": "select",
+      "id": "header_alignment",
+      "label": "Header alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "default": "medium",
+      "options": [
+        { "value": "small", "label": "Small" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "large", "label": "Large" },
+        { "value": "xlarge", "label": "Extra large" },
+        { "value": "xxlarge", "label": "Extra extra Large" }
+      ]
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description",
+      "label": "Description",
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "label": "Description alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_style",
+      "label": "Description style",
+      "default": "body",
+      "options": [
+        { "value": "body", "label": "Body" },
+        { "value": "subtitle", "label": "Subtitle" },
+        { "value": "uppercase", "label": "Uppercase" },
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Testimonial layout"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "scheme_1",
+      "label": "Color scheme"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "top_padding",
+      "label": "Top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "bottom_padding",
+      "label": "Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {"name": "Testimonials"}
+  ],
+}
 {% endschema %}
