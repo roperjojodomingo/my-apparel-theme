@@ -2,7 +2,7 @@
 {{ 'testimonials.css' | asset_url | stylesheet_tag }}
 
 <div class="testimonials">
-  <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+  <h2 class="header-{{ section.settings.heading_size }} text-{{ section.settings.header_alignment }}">{{ section.settings.heading }}</h2>
   {%- if section.settings.description != blank -%}
     <p>{{ section.settings.description }}</p>  
   {%- endif -%}
