@@ -57,7 +57,7 @@
   opacity: 0.8;
 }
 
-.description.uppercase {
+.text-uppercase {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
