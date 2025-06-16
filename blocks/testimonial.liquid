@@ -1,49 +1,8 @@
-{{ 'testimonial-block.css' | asset_url | stylesheet_tag }}
-
-<div class="testimonial text-{{ block.settings.alignment }}">
-  <p class="quotation">“</p>
-  {% if block.settings.customer_testimonial != blank %}
-    <p class="testimonial-text">{{ block.settings.customer_testimonial }}</p>
-  {% endif %}
-
-  <div class="testimonial-divider">&nbsp;</div>
-
-  {% if block.settings.customer_image != blank %}
-    <img
-      src="{{ block.settings.customer_image | image_url: width: 40 }}"
-      alt="{{ block.settings.customer_name | escape }}"
-      class="testimonial-image"
-      width="40"
-      height="40"
-    >
-  {% else %}
-    <img
-      src="{{ 'empty-testimonial-image.png' | asset_url }}"
-      alt="Placeholder image"
-      class="testimonial-image"
-      width="40"
-      height="40"
-    >
-  {% endif %}
-
-  {% if block.settings.customer_name != blank %}
-    <p class="testimonial-name">{{ block.settings.customer_name }}</p>
-  {% endif %}
-</div>
-
-{% stylesheet %}
-  .text-left {
-    text-align: left;
-  }
-
-  .text-center {
-    text-align: center;
-  }
-
-  .text-right {
-    text-align: right;
-  }
-{% endstylesheet %}
+{% render 'testimonial',
+  customer_testimonial: block.settings.customer_testimonial,
+  customer_image: block.settings.customer_image,
+  customer_name: block.settings.customer_name
+%}
 
 {% schema %}
 {
