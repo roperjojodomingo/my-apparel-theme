@@ -1463,7 +1463,7 @@
       },
       {
         "type": "range",
-        "id": "border_radius",
+        "id": "testimonial_border_radius",
         "label": "Border radius",
         "min": 0,
         "max": 50,
@@ -1473,19 +1473,19 @@
       },
       {
         "type": "color",
-        "id": "background_color",
+        "id": "testimonial_background_color",
         "label": "Background color",
         "default": "#ffffff"
       },
       {
         "type": "color",
-        "id": "border_color",
+        "id": "testimonial_border_color",
         "label": "Border color",
         "default": "#ddd"
       },
       {
         "type": "color",
-        "id": "shadow_color",
+        "id": "testimonial_shadow_color",
         "label": "Shadow color",
         "default": "#0000001a"
       }
