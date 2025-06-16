@@ -4,7 +4,7 @@
 <div class="testimonials">
   <h2 class="header-{{ section.settings.heading_size }} text-{{ section.settings.header_alignment }}">{{ section.settings.heading }}</h2>
   {%- if section.settings.description != blank -%}
-    <p>{{ section.settings.description }}</p>  
+    <p class="text-{{ section.settings.description_alignment }} text-{{ section.settings.description_style }}">{{ section.settings.description }}</p>  
   {%- endif -%}
 </div>
 
