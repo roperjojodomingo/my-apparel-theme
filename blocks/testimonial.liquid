@@ -3,7 +3,7 @@
 <div class="testimonial text-{{ block.settings.alignment }}">
   <p class="quotation">“</p>
   {% if block.settings.customer_testimonial != blank %}
-    <p class="testimonial-quote">&ldquo;{{ block.settings.customer_testimonial }}&rdquo;</p>
+    <p class="testimonial-text">{{ block.settings.customer_testimonial }}</p>
   {% endif %}
 
   {% if block.settings.customer_image != blank %}
