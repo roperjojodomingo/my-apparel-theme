@@ -1451,5 +1451,16 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Testimonial",
+    "settings": [
+      {
+        "type": "font_picker",
+        "id": "testimonial_font",
+        "label": "Font",
+        "default": "assistant_n4"
+      }
+    ]
   }
 ]
