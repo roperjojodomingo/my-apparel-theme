@@ -28,10 +28,15 @@
   margin: -4rem 0 0 0;
 }
 
+.testimonial-content {
+  flex-grow: 1;
+}
+
 .testimonial-divider {
   height: 1px;
   width: 24px;
   margin: 20px 0;
+  margin-top: auto;
   background-color: #ccc; 
 }
 
