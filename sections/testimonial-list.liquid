@@ -24,9 +24,11 @@
 {%- style -%}
   {{ testimonial_font | font_face: font_display: 'swap' }}
 
-  p, h2 {
-      --font-body-family: {{ settings.testimonial_font.family }}, {{ settings.testimonial_font.fallback_families }};
+  .testimonials h2,
+  .testimonials p {
+    font-family: '{{ testimonial_font.family }}', {{ testimonial_font.fallback_families }};
   }
+
   .testimonials-padding {
     padding-top: {{ section.settings.top_padding }}px;
     padding-bottom: {{ section.settings.bottom_padding }}px;
