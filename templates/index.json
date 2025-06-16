@@ -85,7 +85,8 @@
           "name": "Testimonial",
           "settings": {
             "customer_name": "Andrea Martinez",
-            "customer_testimonial": "I absolutely love the quality of the clothes! Everything fits perfectly and feels premium. Will definitely shop again"
+            "customer_testimonial": "I absolutely love the quality of the clothes! Everything fits perfectly and feels premium. Will definitely shop again",
+            "customer_image": "shopify://shop_images/360_F_367464887_f0w1JrL8PddfuH3P2jSPlIGjKU2BI0rn.jpg"
           },
           "blocks": {}
         },
@@ -94,7 +95,8 @@
           "name": "Testimonial",
           "settings": {
             "customer_name": "Jared Thompson",
-            "customer_testimonial": "Finally found a store where style meets comfort. Their basics are unbeatable!"
+            "customer_testimonial": "Finally found a store where style meets comfort. Their basics are unbeatable!",
+            "customer_image": "shopify://shop_images/premium_photo-1689568126014-06fea9d5d341.jpg"
           },
           "blocks": {}
         },
@@ -102,7 +104,8 @@
           "type": "testimonial",
           "settings": {
             "customer_name": "Michael Reyes",
-            "customer_testimonial": "Their customer service was super helpful when I ordered the wrong size. Exchanging was fast and easy!"
+            "customer_testimonial": "Their customer service was super helpful when I ordered the wrong size. Exchanging was fast and easy!",
+            "customer_image": "shopify://shop_images/istockphoto-1090878494-612x612.jpg"
           },
           "blocks": {}
         },
@@ -110,7 +113,8 @@
           "type": "testimonial",
           "settings": {
             "customer_name": "Kimberly Dawson",
-            "customer_testimonial": "Got so many compliments on the dress I bought from here. It’s now my go-to for weekend outfits."
+            "customer_testimonial": "Got so many compliments on the dress I bought from here. It’s now my go-to for weekend outfits.",
+            "customer_image": "shopify://shop_images/istockphoto-1437816897-612x612.jpg"
           },
           "blocks": {}
         },
@@ -119,7 +123,8 @@
           "name": "Testimonial",
           "settings": {
             "customer_name": "Derrick Lewis",
-            "customer_testimonial": "Affordable prices, but the clothes feel high-end. I’ve recommended this shop to all my friends."
+            "customer_testimonial": "Affordable prices, but the clothes feel high-end. I’ve recommended this shop to all my friends.",
+            "customer_image": "shopify://shop_images/istockphoto-937519550-612x612.jpg"
           },
           "blocks": {}
         },
@@ -128,7 +133,8 @@
           "name": "Testimonial",
           "settings": {
             "customer_name": "Samantha Young",
-            "customer_testimonial": "Fast shipping and the items looked even better in person. I’m obsessed with their new collection."
+            "customer_testimonial": "Fast shipping and the items looked even better in person. I’m obsessed with their new collection.",
+            "customer_image": "shopify://shop_images/pexels-olly-774909.jpg"
           },
           "blocks": {}
         },
@@ -137,7 +143,8 @@
           "name": "Testimonial",
           "settings": {
             "customer_name": "Nicolas Alvarez",
-            "customer_testimonial": "I always struggle with fit, but this store nailed it. True to size and very flattering."
+            "customer_testimonial": "I always struggle with fit, but this store nailed it. True to size and very flattering.",
+            "customer_image": "shopify://shop_images/head-shot-portrait-close-smiling-600nw-1714666150.webp"
           },
           "blocks": {}
         },
@@ -146,7 +153,8 @@
           "name": "Testimonial",
           "settings": {
             "customer_name": "Jonathan Brooks",
-            "customer_testimonial": "They have the best seasonal drops. Every time they launch something new, I’m there."
+            "customer_testimonial": "They have the best seasonal drops. Every time they launch something new, I’m there.",
+            "customer_image": "shopify://shop_images/premium_photo-1689539137236-b68e436248de.jpg"
           },
           "blocks": {}
         }
