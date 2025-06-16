@@ -128,6 +128,8 @@
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
     "testimonial_font": "quicksand_n4",
+    "testimonial_border_radius": 12,
+    "testimonial_shadow_color": "#0000001a",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
