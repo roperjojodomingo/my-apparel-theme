@@ -11,18 +11,34 @@
         "default": "Testimonials",
       },
       {
-      "type": "select",
-      "id": "heading_size",
-      "label": "Heading size",
-      "default": "h1",
-      "options": [
-        { "value": "h2", "label": "Small" },
-        { "value": "h1", "label": "Medium" },
-        { "value": "h0", "label": "Large" },
-        { "value": "hxl", "label": "Extra large" },
-        { "value": "hxxl", "label": "Extra extra Large" }
-      ]
-    }
+        "type": "select",
+        "id": "heading_size",
+        "label": "Heading size",
+        "default": "h1",
+        "options": [
+          { "value": "h2", "label": "Small" },
+          { "value": "h1", "label": "Medium" },
+          { "value": "h0", "label": "Large" },
+          { "value": "hxl", "label": "Extra large" },
+          { "value": "hxxl", "label": "Extra extra Large" }
+        ]
+      },
+      {
+        "type": "inline_richtext",
+        "id": "description",
+        "label": "Description",
+      },
+      {
+        "type": "select",
+        "id": "description_style",
+        "label": "Description style",
+        "default": "body",
+        "options": [
+          { "value": "body", "label": "Body" },
+          { "value": "subtitle", "label": "Subtitle" },
+          { "value": "uppercase", "label": "Uppercase" },
+        ]
+      },
     ],
     "presets": [
       {"name": "Testimonials"}
