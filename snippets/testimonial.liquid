@@ -10,11 +10,18 @@
 {{ 'testimonial-block.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .testimonial {
-    font-family: {{ settings.testimonial_font.family }}, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    height: 100%;
     border-radius: {{ settings.border_radius }}px;
     background-color: {{ settings.background_color }};
     border: 1px solid {{ settings.border_color }};
-    box-shadow: 0 4px 10px {{ settings.shadow_color }};
+    box-shadow: 0 2px 6px {{ settings.shadow_color }};
   }
 {%- endstyle -%}
 
