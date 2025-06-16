@@ -29,7 +29,8 @@
 .testimonial-divider {
   height: 10px;
   width: 100px;
-  padding: 32px;
+  margin: 32px 0; 
+  background-color: #ccc; 
 }
 
 .testimonial-image {
