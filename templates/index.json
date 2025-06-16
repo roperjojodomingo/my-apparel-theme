@@ -80,20 +80,86 @@
     "testimonial_list_eVnd6T": {
       "type": "testimonial-list",
       "blocks": {
+        "testimonial_47mnKH": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "Andrea Martinez",
+            "customer_testimonial": "I absolutely love the quality of the clothes! Everything fits perfectly and feels premium. Will definitely shop again"
+          },
+          "blocks": {}
+        },
+        "testimonial_CDFPwH": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "Jared Thompson",
+            "customer_testimonial": "Finally found a store where style meets comfort. Their basics are unbeatable!"
+          },
+          "blocks": {}
+        },
         "testimonial_iyeMzY": {
           "type": "testimonial",
-          "settings": {},
+          "settings": {
+            "customer_name": "Melissa Rodriguez",
+            "customer_testimonial": "Their customer service was super helpful when I ordered the wrong size. Exchanging was fast and easy!"
+          },
           "blocks": {}
         },
         "testimonial_gF4TN3": {
           "type": "testimonial",
-          "settings": {},
+          "settings": {
+            "customer_name": "Kimberly Dawson",
+            "customer_testimonial": "Got so many compliments on the dress I bought from here. It’s now my go-to for weekend outfits."
+          },
+          "blocks": {}
+        },
+        "testimonial_mHMKpP": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "Derrick Lewis",
+            "customer_testimonial": "Affordable prices, but the clothes feel high-end. I’ve recommended this shop to all my friends."
+          },
+          "blocks": {}
+        },
+        "testimonial_JtY3PL": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "Samantha Young",
+            "customer_testimonial": "Fast shipping and the items looked even better in person. I’m obsessed with their new collection."
+          },
+          "blocks": {}
+        },
+        "testimonial_mjAkgx": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "Nicolas Alvarez",
+            "customer_testimonial": "I always struggle with fit, but this store nailed it. True to size and very flattering."
+          },
+          "blocks": {}
+        },
+        "testimonial_NzKXHU": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "Rachel Foster",
+            "customer_testimonial": "They have the best seasonal drops. Every time they launch something new, I’m there."
+          },
           "blocks": {}
         }
       },
       "block_order": [
+        "testimonial_47mnKH",
+        "testimonial_CDFPwH",
         "testimonial_iyeMzY",
-        "testimonial_gF4TN3"
+        "testimonial_gF4TN3",
+        "testimonial_mHMKpP",
+        "testimonial_JtY3PL",
+        "testimonial_mjAkgx",
+        "testimonial_NzKXHU"
       ],
       "name": "Testimonials",
       "settings": {
