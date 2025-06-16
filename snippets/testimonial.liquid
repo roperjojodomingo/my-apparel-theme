@@ -21,16 +21,16 @@
       src="{{ customer_image | image_url: width: 100 }}"
       alt="{{customer_name | escape }}"
       class="testimonial-image"
-      width="40"
-      height="40"
+      width="60"
+      height="60"
     >
   {% else %}
     <img
       src="{{ 'empty-testimonial-image.png' | asset_url }}"
       alt="Placeholder image"
       class="testimonial-image"
-      width="40"
-      height="40"
+      width="60"
+      height="60"
     >
   {% endif %}
 
