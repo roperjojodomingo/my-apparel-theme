@@ -76,10 +76,26 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "testimonial_list_eVnd6T": {
+      "type": "testimonial-list",
+      "name": "Testimonials",
+      "settings": {
+        "heading": "Testimonials",
+        "header_alignment": "left",
+        "heading_size": "medium",
+        "description": "test",
+        "description_alignment": "left",
+        "description_style": "body",
+        "color_scheme": "",
+        "top_padding": 40,
+        "bottom_padding": 40
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "testimonial_list_eVnd6T"
   ]
 }
