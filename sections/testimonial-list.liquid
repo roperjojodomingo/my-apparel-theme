@@ -1,11 +1,9 @@
 {{ 'testimonials.css' | asset_url | stylesheet_tag }}
 {%- assign testimonial_font = settings.testimonial_font -%}
 
-{{ testimonial_font | font_face }}
-
 <div
   class="testimonials testimonials-padding color-{{ section.settings.color_scheme }}"
-  style="font-family: {{ testimonial_font.family }}, sans-serif;"
+  style="font-family: {{ testimonial_font | font_face }}, sans-serif;"
 >
   <h2 class="header-{{ section.settings.heading_size }} text-{{ section.settings.header_alignment }}">
     {{ section.settings.heading }}
