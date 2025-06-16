@@ -9,13 +9,13 @@
       {{ section.settings.description }}
     </p>
   {%- endif -%}
-
-  <div class="testimonials-grid">
-    {% for block in section.blocks %}
-      {% render block %}
-    {% endfor %}
+  <div class="testimonials-grid-wrapper">
+    <div class="testimonials-grid">
+      {% for block in section.blocks %}
+        {% render block %}
+      {% endfor %}
+    </div>
   </div>
-</div>
 
 {%- style -%}
   .testimonials-padding {
