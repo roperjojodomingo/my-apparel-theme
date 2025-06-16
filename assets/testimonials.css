@@ -73,10 +73,10 @@
 }
 
 .quotation {
-  font-size: 5rem;
+  font-size: 2rem;
+  color: #f4c542;
+  margin: 0 0 1rem;
   line-height: 1;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .testimonial-image {
