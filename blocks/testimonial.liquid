@@ -1,3 +1,5 @@
+{{ 'testimonial-block.css' | asset_url | stylesheet_tag }}
+
 <div class="testimonial text-{{ block.settings.alignment }}">
   <p class="quotation">“</p>
   {% if block.settings.customer_testimonial != blank %}
