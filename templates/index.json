@@ -173,11 +173,11 @@
       "settings": {
         "heading": "Testimonials",
         "header_alignment": "center",
-        "heading_size": "medium",
+        "heading_size": "large",
         "description": "Learn what our customers have to say",
         "description_alignment": "center",
         "description_style": "subtitle",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "top_padding": 36,
         "bottom_padding": 36
       }
