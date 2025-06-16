@@ -72,6 +72,10 @@
   justify-content: center;
 }
 
+.qoutation {
+  font-size: 5rem;
+}
+
 .testimonial-image {
   width: 40px;
   height: 40px;
