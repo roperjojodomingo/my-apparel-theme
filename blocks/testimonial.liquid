@@ -9,19 +9,19 @@
 
   {% if block.settings.customer_image != blank %}
     <img
-      src="{{ block.settings.customer_image | image_url: width: 60 }}"
+      src="{{ block.settings.customer_image | image_url: width: 40 }}"
       alt="{{ block.settings.customer_name | escape }}"
       class="testimonial-image"
-      width="60"
-      height="60"
+      width="40"
+      height="40"
     >
   {% else %}
     <img
       src="{{ 'empty-testimonial-image.png' | asset_url }}"
       alt="Placeholder image"
       class="testimonial-image"
-      width="60"
-      height="60"
+      width="40"
+      height="40"
     >
   {% endif %}
 </div>
