@@ -82,10 +82,10 @@
       "name": "Testimonials",
       "settings": {
         "heading": "Testimonials",
-        "header_alignment": "left",
+        "header_alignment": "center",
         "heading_size": "medium",
-        "description": "test",
-        "description_alignment": "left",
+        "description": "Learn what our customers have to say",
+        "description_alignment": "center",
         "description_style": "body",
         "color_scheme": "",
         "top_padding": 40,
