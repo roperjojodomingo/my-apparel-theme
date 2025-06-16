@@ -23,16 +23,40 @@
     {
       "type": "textarea",
       "id": "text",
-      "label": "Text"
+      "label": "Testimonial"
     },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Name",
+      "placeholder": "e.g. Jane Doe"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Customer image"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Text alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    }
   ],
   "presets": [
     {
       "name": "Testimonial",
       "settings": {
-        "text": "<p>Hello, world!</p>"
+        "text": "Lorem ipsum dolor sit amet.",
+        "name": "Jane Doe"
       }
     }
   ]
 }
+
 {% endschema %}
