@@ -86,7 +86,8 @@
           "settings": {
             "customer_name": "John Lapus",
             "customer_testimonial": "Ayooooo this is the bomb!",
-            "alignment": "left"
+            "alignment": "left",
+            "customer_image": "shopify://shop_images/Screenshot_2025-06-11_at_4.57.11_PM.png"
           },
           "blocks": {}
         }
