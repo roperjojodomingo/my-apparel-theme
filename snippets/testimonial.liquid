@@ -9,10 +9,12 @@
 
 {{ 'testimonial-block.css' | asset_url | stylesheet_tag }}
 <div class="testimonial">
-  <p class="quotation">“</p>
-  {% if customer_testimonial != blank %}
-    <p class="testimonial-text">{{ customer_testimonial }}</p>
-  {% endif %}
+  <div class="testimonial-content">
+    <p class="quotation">“</p>
+    {% if customer_testimonial != blank %}
+      <p class="testimonial-text">{{ customer_testimonial }}</p>
+    {% endif %}
+  </div>
 
   <div class="testimonial-divider">&nbsp;</div>
 
