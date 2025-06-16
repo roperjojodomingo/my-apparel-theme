@@ -77,7 +77,7 @@
         "padding_bottom": 36
       }
     },
-    "testimonial_list_PWqeq9": {
+    "testimonial_list": {
       "type": "testimonial-list",
       "name": "Testimonials Section",
       "settings": {
@@ -91,6 +91,6 @@
   "order": [
     "image_banner",
     "featured_collection",
-    "testimonial_list_PWqeq9"
+    "testimonial_list"
   ]
 }
