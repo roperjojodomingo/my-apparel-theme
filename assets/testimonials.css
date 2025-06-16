@@ -1,3 +1,7 @@
 .testimonials {
   font-family: 'Playfair Display', serif;
 }
+
+.testimonials h2 {
+  font-family: inherit;
+}
