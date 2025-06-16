@@ -58,9 +58,9 @@
         "heading_size": "h2",
         "description": "",
         "show_description": false,
-        "description_style": "uppercase",
+        "description_style": "body",
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -82,7 +82,9 @@
       "name": "Testimonials Section",
       "settings": {
         "heading": "Testimonials",
-        "heading_size": "h2"
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body"
       }
     }
   },
