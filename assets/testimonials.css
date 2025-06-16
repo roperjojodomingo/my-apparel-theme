@@ -61,29 +61,3 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
-.testimonial {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 24px;
-  padding: 24px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  justify-content: center;
-}
-
-.quotation {
-  font-size: 5rem;
-  color: #f4c542;
-  margin: 0 0 1rem;
-  line-height: 1;
-  text-align: center
-}
-
-.testimonial-image {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 1px solid #ddd;
-}
