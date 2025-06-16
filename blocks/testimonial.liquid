@@ -1,6 +1,4 @@
 <div class="testimonial text-{{ block.settings.alignment }}">
-  
-
   {% if block.settings.customer_testimonial != blank %}
     <p class="testimonial-quote">&ldquo;{{ block.settings.customer_testimonial }}&rdquo;</p>
   {% endif %}
@@ -9,7 +7,23 @@
     <p class="testimonial-name">{{ block.settings.customer_name }}</p>
   {% endif %}
 
-  <img src="{{ block.settings.customer_image| image_url: width: 100 | default: 'https://via.placeholder.com/100' }}" alt="{{ block.settings.customer_name | escape }}" class="testimonial-image" width="100" height="100" />
+  {% if block.settings.customer_image != blank %}
+    <img
+      src="{{ block.settings.customer_image | image_url: width: 100 }}"
+      alt="{{ block.settings.customer_name | escape }}"
+      class="testimonial-image"
+      width="100"
+      height="100"
+    >
+  {% else %}
+    <img
+      src="{{ 'empty-testimonial-image.png' | asset_url }}"
+      alt="Placeholder image"
+      class="testimonial-image"
+      width="100"
+      height="100"
+    >
+  {% endif %}
 </div>
 
 {% stylesheet %}
@@ -33,7 +47,7 @@
     {
       "type": "text",
       "id": "customer_name",
-      "label": "Customer name",
+      "label": "Customer name"
     },
     {
       "type": "inline_richtext",
@@ -54,16 +68,14 @@
     {
       "type": "image_picker",
       "id": "customer_image",
-      "label": "Customer image",
-    },
+      "label": "Customer image"
+    }
   ],
   "presets": [
     {
       "name": "Testimonial",
-      "settings": {
-      }
+      "settings": {}
     }
   ]
 }
-
 {% endschema %}
