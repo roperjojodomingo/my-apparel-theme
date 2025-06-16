@@ -4,10 +4,6 @@
     <p class="testimonial-quote">&ldquo;{{ block.settings.customer_testimonial }}&rdquo;</p>
   {% endif %}
 
-  {% if block.settings.customer_name != blank %}
-    <p class="testimonial-name">{{ block.settings.customer_name }}</p>
-  {% endif %}
-
   {% if block.settings.customer_image != blank %}
     <img
       src="{{ block.settings.customer_image | image_url: width: 40 }}"
@@ -24,6 +20,10 @@
       width="40"
       height="40"
     >
+  {% endif %}
+
+  {% if block.settings.customer_name != blank %}
+    <p class="testimonial-name">{{ block.settings.customer_name }}</p>
   {% endif %}
 </div>
 
