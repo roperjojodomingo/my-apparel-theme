@@ -10,7 +10,9 @@
     </p>
   {%- endif -%}
 
-  {% content_for 'blocks' %}
+  {% for block in section.blocks %}
+    {% render block %}
+  {% endfor %}
 </div>
 
 {%- style -%}
