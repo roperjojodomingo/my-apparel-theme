@@ -1,14 +1,17 @@
 <div class="testimonial text-{{ block.settings.alignment }}">
-  {% if block.settings.customer_image != blank %}
-    <img src="{{ block.settings.customer_image | image_url: width: 100 }}" alt="{{ block.settings.customer_name | escape }}" class="testimonial-image" />
-  {% endif %}
+  
 
   {% if block.settings.customer_testimonial != blank %}
     <p class="testimonial-quote">&ldquo;{{ block.settings.customer_testimonial }}&rdquo;</p>
   {% endif %}
 
   {% if block.settings.customer_name != blank %}
-    <p class="testimonial-name">– {{ block.settings.customer_name }}</p>
+    <p class="testimonial-name">{{ block.settings.customer_name }}</p>
+  {% endif %}
+
+  {% if block.settings.customer_image != blank %}
+    <img src="{{ block.settings.customer_image }}" alt="{{ block.settings.customer_name | escape }}" class="testimonial-image" width="100" height="100" />
+  {% else %}
   {% endif %}
 </div>
 
