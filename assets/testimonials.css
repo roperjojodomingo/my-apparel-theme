@@ -1,6 +1,7 @@
 .testimonials {
   padding-left: 24px;
   padding-right: 24px;
+  max-width: 1200px;
 }
 
 .testimonials h2 {
