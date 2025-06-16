@@ -16,11 +16,9 @@
     {% endif %}
   </div>
 
-  <div class="testimonial-divider">&nbsp;</div>
-
   {% if customer_image != blank %}
     <img
-      src="{{ customer_image | image_url: width: 100 }}"
+      src="{{ customer_image | image_url: width: 160 }}"
       alt="{{customer_name | escape }}"
       class="testimonial-image"
       width="60"
