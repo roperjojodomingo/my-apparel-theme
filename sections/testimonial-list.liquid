@@ -1,4 +1,4 @@
-<h2 class="{{ section.settings.heading_size }}" >{{ section.settings.heading }}</h2>
+<h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
 
 {% schema %}
   {
@@ -40,10 +40,11 @@
         ]
       },
       {
-        "type": "color_background",
-        "id": "background_color",
-        "label": "Background color",
-      }
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "default": "scheme_1",
+        "label": "Color scheme"
+      },
     ],
     "presets": [
       {"name": "Testimonials"}
