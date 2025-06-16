@@ -1,7 +1,11 @@
 .testimonials {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 .testimonials h2 {
   font-family: inherit;
+}
+
+.small {
+  font-size: 2.5rem
 }
