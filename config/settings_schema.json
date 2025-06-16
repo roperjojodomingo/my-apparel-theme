@@ -1460,6 +1460,34 @@
         "id": "testimonial_font",
         "label": "Font",
         "default": "assistant_n4"
+      },
+      {
+        "type": "range",
+        "id": "border_radius",
+        "label": "Border radius",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "default": 8
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "border_color",
+        "label": "Border color",
+        "default": "#ddd"
+      },
+      {
+        "type": "color",
+        "id": "shadow_color",
+        "label": "Shadow color",
+        "default": "#0000001a"
       }
     ]
   }
