@@ -64,11 +64,6 @@
   margin: 0
 }
 
-.testimonials-grid-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .testimonials-grid {
   display: grid;
   gap: 2rem;

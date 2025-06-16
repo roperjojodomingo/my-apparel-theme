@@ -9,12 +9,10 @@
       {{ section.settings.description }}
     </p>
   {%- endif -%}
-  <div class="testimonials-grid-wrapper">
-    <div class="testimonials-grid">
-      {% for block in section.blocks %}
-        {% render block %}
-      {% endfor %}
-    </div>
+  <div class="testimonials-grid">
+    {% for block in section.blocks %}
+      {% render block %}
+    {% endfor %}
   </div>
 </div>
 
