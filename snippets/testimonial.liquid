@@ -1,0 +1,40 @@
+{% comment %}
+  Renders a testimonial block.
+
+  Accepts:
+  - customer_testimonial: {String}
+  - customer_image: {Image}
+  - customer_name: {String}
+{% endcomment %}
+
+{{ 'testimonial-block.css' | asset_url | stylesheet_tag }}
+<div class="testimonial">
+  <p class="quotation">“</p>
+  {% if customer_testimonial != blank %}
+    <p class="testimonial-text">{{ customer_testimonial }}</p>
+  {% endif %}
+
+  <div class="testimonial-divider">&nbsp;</div>
+
+  {% if customer_image != blank %}
+    <img
+      src="{{ customer_image | image_url: width: 40 }}"
+      alt="{{customer_name | escape }}"
+      class="testimonial-image"
+      width="40"
+      height="40"
+    >
+  {% else %}
+    <img
+      src="{{ 'empty-testimonial-image.png' | asset_url }}"
+      alt="Placeholder image"
+      class="testimonial-image"
+      width="40"
+      height="40"
+    >
+  {% endif %}
+
+  {% if customer_name != blank %}
+    <p class="testimonial-name">{{ customer_name }}</p>
+  {% endif %}
+</div>
