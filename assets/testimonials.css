@@ -74,16 +74,18 @@
   gap: 2rem;
   grid-template-columns: 1fr;
   margin-top: 2.5rem;
+  width: 100%;
+  max-width: 1200px;
 }
 
 @media (min-width: 768px) {
   .testimonials-grid {
-    grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .testimonials-grid {
-    grid-template-columns: repeat(4, 1fr);  
+    grid-template-columns: repeat(4, 1fr);
   }
 }
