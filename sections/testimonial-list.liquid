@@ -9,10 +9,23 @@
         "id": "heading",
         "label": "Heading",
         "default": "Testimonials",
-      }
+      },
+      {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "default": "h1",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" },
+        { "value": "hxl", "label": "Extra large" },
+        { "value": "hxxl", "label": "Extra extra Large" }
+      ]
+    }
     ],
     "presets": [
       {"name": "Testimonials"}
-    ]
+    ],
   }
 {% endschema %}
