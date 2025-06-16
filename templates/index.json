@@ -79,6 +79,22 @@
     },
     "testimonial_list_eVnd6T": {
       "type": "testimonial-list",
+      "blocks": {
+        "testimonial_DLT4zw": {
+          "type": "testimonial",
+          "name": "Testimonial",
+          "settings": {
+            "customer_name": "John Lapus",
+            "customer_testimonial": "Ayooooo this is the bomb!",
+            "alignment": "left",
+            "customer_image": "shopify://shop_images/Screenshot_2025-06-11_at_2.25.20_PM.png"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "testimonial_DLT4zw"
+      ],
       "name": "Testimonials",
       "settings": {
         "heading": "Testimonials",
