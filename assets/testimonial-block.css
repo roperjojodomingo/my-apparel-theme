@@ -29,6 +29,7 @@
 .testimonial-divider {
   height: 1px;
   width: 100px;
+  padding: 32px;
 }
 
 .testimonial-image {
