@@ -82,9 +82,14 @@
       "name": "Testimonials Section",
       "settings": {
         "heading": "Testimonials",
+        "header_alignment": "left",
         "heading_size": "h2",
-        "description": "",
-        "description_style": "body"
+        "description": "sdsd",
+        "description_alignment": "left",
+        "description_style": "body",
+        "color_scheme": "",
+        "top_padding": 40,
+        "bottom_padding": 40
       }
     }
   },
