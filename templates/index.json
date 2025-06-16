@@ -86,7 +86,7 @@
         "heading_size": "medium",
         "description": "Learn what our customers have to say",
         "description_alignment": "center",
-        "description_style": "body",
+        "description_style": "subtitle",
         "color_scheme": "",
         "top_padding": 40,
         "bottom_padding": 40
