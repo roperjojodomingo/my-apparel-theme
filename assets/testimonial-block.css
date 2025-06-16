@@ -39,3 +39,8 @@
   border-radius: 50%;
   border: 1px solid #ddd;
 }
+
+.testimonial-name {
+  font-size: 1.25rem;
+  margin-top: 12px;
+}
