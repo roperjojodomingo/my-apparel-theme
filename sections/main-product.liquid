@@ -201,7 +201,7 @@
               {%- when 'product_specs' -%}
                 {%- if product.metafields.custom.specs != blank -%}
                   <h1>dsdsd</h1>
-                  {%- assign specs = product.metafields.custom.specs -%}
+                  {%- assign specs = product.metafields.custom.specs.value -%}
                   {% render 'product-specs',
                     material: specs.material,
                     fit: specs.fit,
