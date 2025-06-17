@@ -9,12 +9,26 @@
 {% endcomment %}
 
 <div class="product-specifications">
-  <ul>
-    <li><strong>Material:</strong> {{ material }}</li>
-    <li><strong>Fit:</strong> {{ fit }}</li>
-    <li><strong>Care:</strong> {{ care }}</li>
-    {% if origin %}
-      <li><strong>Origin:</strong> {{ origin }}</li>
-    {% endif %}
-  </ul>
+  <table>
+    <tbody>
+      <tr>
+        <th>Material</th>
+        <td>{{ material }}</td>
+      </tr>
+      <tr>
+        <th>Fit</th>
+        <td>{{ fit }}</td>
+      </tr>
+      <tr>
+        <th>Care</th>
+        <td>{{ care }}</td>
+      </tr>
+      {% if origin %}
+        <tr>
+          <th>Origin</th>
+          <td>{{ origin }}</td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
 </div>
