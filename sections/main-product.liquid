@@ -199,8 +199,15 @@
                 {%- endif -%}
 
               {%- when 'product_specs' -%}
-                <h1>sss</h1>
-                {% render 'product-specs', material: 'sss', fit: 'ddd', care: 'dd' %}
+                {%- if product.metafields.custom.specs != blank -%}
+                  {%- assign specs = product.metafields.custom.specs.value -%}
+                  {% render 'product-specs',
+                    material: specs.material,
+                    fit: specs.fit,
+                    care: specs.care,
+                    origin: specs.origin
+                  %}
+                {%- endif -%}
 
               {%- when 'sku' -%}
                 <p
