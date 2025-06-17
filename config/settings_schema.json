@@ -1488,7 +1488,18 @@
         "id": "testimonial_shadow_color",
         "label": "Shadow color",
         "default": "#0000001a"
-      }
+      },
+      {
+      "type": "select",
+      "id": "testimonial_alignment",
+      "label": "Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
     ]
   }
 ]
