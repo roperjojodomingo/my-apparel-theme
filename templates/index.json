@@ -77,6 +77,47 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_iAFrhE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Ub8cNt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-t-shirts"
+          }
+        },
+        "featured_collection_hGb7XC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-shorts"
+          }
+        },
+        "featured_collection_QfNFL9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Ub8cNt",
+        "featured_collection_hGb7XC",
+        "featured_collection_QfNFL9"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "testimonial_list_eVnd6T": {
       "type": "testimonial-list",
       "blocks": {
@@ -186,6 +227,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "collection_list_iAFrhE",
     "testimonial_list_eVnd6T"
   ]
 }
