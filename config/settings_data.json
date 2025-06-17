@@ -131,6 +131,7 @@
     "testimonial_border_radius": 12,
     "testimonial_border_color": "#dddddd",
     "testimonial_shadow_color": "#0000001a",
+    "testimonial_alignment": "left",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
