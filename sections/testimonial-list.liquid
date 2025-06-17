@@ -2,8 +2,7 @@
 {%- assign testimonial_font = settings.testimonial_font -%}
 
 <div
-  class="testimonials testimonials-padding color-{{ section.settings.color_scheme }}"
-  data-aos="fade"
+  class="testimonials testimonials-padding color-{{ section.settings.color_scheme }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
 >
   <h2 class="header-{{ section.settings.heading_size }} text-{{ section.settings.header_alignment }}">
     {{ section.settings.heading }}
