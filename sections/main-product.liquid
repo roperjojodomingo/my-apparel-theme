@@ -199,9 +199,7 @@
                 {%- endif -%}
 
               {%- when 'product_specs' -%}
-                {%- if product.metafields.custom.specs != blank -%}
-                  {% render block %}
-                {%- endif -%}
+                {% render block %}
 
               {%- when 'sku' -%}
                 <p
