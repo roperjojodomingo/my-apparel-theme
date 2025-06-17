@@ -20,6 +20,10 @@
       {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
       {%- endif -%}
+
+      {%- if collection.metafields.promo.banner_text -%}
+        <p>{{ collection.metafields.promo.banner_text }}</p>
+      {%- endif -%}
     </div>
 
     {%- if section.settings.show_collection_image and collection.image -%}
