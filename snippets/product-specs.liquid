@@ -1,0 +1,26 @@
+{% comment %}
+  Renders a testimonial block.
+
+  Accepts:
+  - material: {String}
+  - fit: {String}
+  - care: {String}
+  - origin: {String, optional}
+{% endcomment %}
+
+<div class="product-specifications">
+  <ul>
+    {% if specs.material %}
+      <li><strong>Material:</strong> {{ specs.material }}</li>
+    {% endif %}
+    {% if specs.fit %}
+      <li><strong>Fit:</strong> {{ specs.fit }}</li>
+    {% endif %}
+    {% if specs.care %}
+      <li><strong>Care:</strong> {{ specs.care }}</li>
+    {% endif %}
+    {% if specs.origin %}
+      <li><strong>Origin:</strong> {{ specs.origin }}</li>
+    {% endif %}
+  </ul>
+</div>
