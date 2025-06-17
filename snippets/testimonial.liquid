@@ -22,13 +22,16 @@
     border: 1px solid {{ settings.testimonial_border_color }};
     box-shadow: 0 2px 6px {{ settings.testimonial_shadow_color }};
   }
+  .testimonial-alignment {
+    text-align:  {{ settings.testimonial_alignment }}
+  }
 {%- endstyle -%}
 
 <div class="testimonial">
   <div class="testimonial-content">
-    <p class="quotation">“</p>
+    <p class="quotation testimonial-alignment">“</p>
     {% if customer_testimonial != blank %}
-      <p class="testimonial-text">{{ customer_testimonial }}</p>
+      <p class="testimonial-text testimonial-alignment">{{ customer_testimonial }}</p>
     {% endif %}
   </div>
 
