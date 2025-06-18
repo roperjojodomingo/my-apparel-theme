@@ -53,6 +53,10 @@
           "type": "product_specs",
           "settings": {}
         },
+        "product_size_chart_Yrqr3r": {
+          "type": "product_size_chart",
+          "settings": {}
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -69,6 +73,7 @@
         "buy_buttons",
         "description",
         "product_specs_WVhJje",
+        "product_size_chart_Yrqr3r",
         "share"
       ],
       "settings": {
