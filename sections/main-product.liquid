@@ -209,6 +209,11 @@
                   %}
                 {%- endif -%}
 
+              {%- when 'product_size_chart' -%}
+                {%- if product.metafields.custom.size_chart_pdf != blank -%}
+                  {% render 'product-size-chart', size_chart_pdf: product.metafields.custom.size_chart_pdf %}
+                {%- endif -%}
+
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
