@@ -57,6 +57,10 @@
           "type": "product_size_chart",
           "settings": {}
         },
+        "product_material_and_care_zAgjcL": {
+          "type": "product_material_and_care",
+          "settings": {}
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -74,6 +78,7 @@
         "description",
         "product_specs_WVhJje",
         "product_size_chart_Yrqr3r",
+        "product_material_and_care_zAgjcL",
         "share"
       ],
       "settings": {
