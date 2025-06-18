@@ -14,7 +14,7 @@
     <tbody>
       {% for key in specs %}
         <tr>
-          <th>{{ key }}</th>
+          <th>{{ key | capitalize }}</th>
           <td>{{ parsed_specs[key] }}</td>
         </tr>
       {% endfor %}
