@@ -7,24 +7,7 @@
 
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
 
-<div>
-  <label class="metafields-label">Material</label>
-  <table>
-    <tbody>
-      <tr>
-        <th>Material</th>
-        <td>{{ material }}</td>
-      </tr>
-      <tr>
-        <th>Fit</th>
-        <td>{{ fit }}</td>
-      </tr>
-      {% if origin %}
-        <tr>
-          <th>Origin</th>
-          <td>{{ origin }}</td>
-        </tr>
-      {% endif %}
-    </tbody>
-  </table>
-</div>
+<a href="#size-guide" class="check-size-link">
+  <img src="{{ 'ruler-icon.svg' | asset_url }}" alt="" class="icon">
+  Check my size
+</a>
