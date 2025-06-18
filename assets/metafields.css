@@ -22,13 +22,14 @@
 
 
 .product-material-and-care-container-toggle {
-  all: unset; 
+  all: unset;
   background-color: #FFFFFF;
   cursor: pointer;
   padding: 12px;
   width: 100%;
-  border: none;
   text-align: left;
-  outline: none;
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
