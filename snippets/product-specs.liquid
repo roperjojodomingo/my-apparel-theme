@@ -12,10 +12,10 @@
   <label class="metafields-label">The Finer Details</label>
   <table>
     <tbody>
-      {% for key in specs %}
+      {% for spec in specs %}
         <tr>
-          <th>{{ key | capitalize }}</th>
-          <td>{{ parsed_specs[key] }}</td>
+          <th>{{ spec[0] | capitalize }}</th>
+          <td>{{ spec[1] }}</td>
         </tr>
       {% endfor %}
     </tbody>
