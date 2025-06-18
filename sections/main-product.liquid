@@ -210,10 +210,8 @@
                 {%- endif -%}
 
               {%- when 'product_size_chart' -%}
-                {%- if product.metafields.custom.size_chart_pdf -%}
-                  <h1>wewewe</h1>
-                  {% render 'product-size-chart', size_chart_pdf: product.metafields.custom.size_chart_pdf %}
-                {%- endif -%}
+                <h1>wewewe</h1>
+                {% render 'product-size-chart', size_chart_pdf: product.metafields.custom.size_chart_pdf %}
 
               {%- when 'sku' -%}
                 <p
