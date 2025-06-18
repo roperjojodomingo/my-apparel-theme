@@ -27,16 +27,15 @@ input[type='checkbox'] {
  .product-material-and-care-container {
      margin: 1.2rem 0;
 }
+
  .product-material-and-care-container-toggle {
      display: block;
-     font-size: 1.2rem;
+     font-size: 1.25rem;
      padding: 1rem;
      cursor: pointer;
      transition: all 0.25s ease-out;
 }
- .product-material-and-care-container-toggle:hover {
-     color: #FFF;
-}
+
  .product-material-and-care-container-toggle::before {
      content: ' ';
      display: inline-block;
