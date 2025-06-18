@@ -1,6 +1,6 @@
 .metafields-label {
   display: block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -8,15 +8,10 @@
 .check-size-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 14px;
+  gap: 8px;
+  font-size: 2rem;
   color: #0075ff;
   text-decoration: none;
   font-weight: 500;
 }
 
-.check-size-link .icon {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-}
