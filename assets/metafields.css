@@ -37,8 +37,8 @@
 
 .product-material-and-care-content {
   padding: 4px 16px; 
-  display: none;
   overflow: hidden;
+  max-height: 0;
   transition: max-height 0.2s ease-out;
 }
 
