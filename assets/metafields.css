@@ -21,8 +21,8 @@
 }
 
 .product-material-and-care-container {
-  border-bottom: 1px solid #ccc;
-  
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 .product-material-and-care-toggle {
@@ -41,7 +41,7 @@
 }
 
 .product-material-and-care-content {
-  padding: 4px 16px; 
+  padding: 0px 16px; 
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
