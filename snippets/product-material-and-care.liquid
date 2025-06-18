@@ -7,29 +7,14 @@
 
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
 
-<!--
-  <div class="product-material-and-care-container">
-    <input id="collapsible" class="toggle" type="checkbox">
-    <label class="product-material-and-care-container-toggle">Material and care</label>
-    <div class="collapsible-content">
-      <div class="content-inner">
-        <p>
-          {{ material_and_care }}
-        </p>
-      </div>
-    </div>
-  </div>
--->
-
-<button type="button" class="product-material-and-care-container-toggle">
+<button type="button" class="product-material-and-care-toggle">
   <span>Material and care</span>
   <svg class="accordion-icon" viewBox="0 0 24 24" width="20" height="20">
     <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" />
   </svg>
 </button>
-<div class="content">
+<div class="product-material-and-care-content">
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    {{ material_and_care }}
   </p>
 </div>
