@@ -37,9 +37,11 @@
 }
 
 .product-material-and-care-content {
-  padding: 0px 12px; 
+  padding: 4px 16px; 
 }
 
 .product-material-and-care-content p{
   margin: 0;
+  font-size: 1.5rem;
+  
 }
