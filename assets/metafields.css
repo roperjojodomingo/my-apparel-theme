@@ -36,12 +36,9 @@
 }
 
 .product-material-and-care-content {
-  /* padding: 4px 16px;  */
+  padding: 4px 16px; 
   display: none;
   overflow: hidden;
-  transition: max-height 0.3s ease, padding-top 0.3s ease, padding-bottom 0.3s ease;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .product-material-and-care-content p{
