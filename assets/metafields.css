@@ -33,8 +33,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  border-top: 1px solid #ccc;    
-  border-bottom: 1px solid #ccc;
 }
 
 .product-material-and-care-content {
