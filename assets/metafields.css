@@ -35,3 +35,7 @@
   justify-content: space-between;
   gap: 8px;
 }
+
+.product-material-and-care-content {
+  padding: 12px;
+}
