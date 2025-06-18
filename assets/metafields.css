@@ -26,6 +26,8 @@
   background-color: #FFFFFF;
   cursor: pointer;
   padding: 12px 24px 12px 12px;
+  width: auto;
+  max-width: 100%;
   text-align: left;
   font-size: 1.5rem;
   display: flex;
