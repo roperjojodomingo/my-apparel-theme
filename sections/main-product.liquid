@@ -210,7 +210,7 @@
                 {%- endif -%}
 
               {%- when 'product_size_chart' -%}
-                {%- if product.metafields.custom.size_chart_pdf != blank -%}
+                {%- if product.metafields.custom.size_chart_pdf and product.metafields.custom.size_chart_pdf.url -%}
                   <h1>wewewe</h1>
                   {% render 'product-size-chart', size_chart_pdf: product.metafields.custom.size_chart_pdf %}
                 {%- endif -%}
