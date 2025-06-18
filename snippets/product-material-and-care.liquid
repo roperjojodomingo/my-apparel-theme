@@ -8,14 +8,15 @@
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
 
 <div>
-<button type="button" class="product-material-and-care-toggle">
-  <span>Material and care</span>
-  <svg class="accordion-icon" viewBox="0 0 24 24" width="16" height="16">
-    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" />
-  </svg>
-</button>
-<div class="product-material-and-care-content">
-  <p>
-    {{ material_and_care }}
-  </p>
+  <button type="button" class="product-material-and-care-toggle">
+    <span>Material and care</span>
+    <svg class="accordion-icon" viewBox="0 0 24 24" width="16" height="16">
+      <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" />
+    </svg>
+  </button>
+  <div class="product-material-and-care-content">
+    <p>
+      {{ material_and_care }}
+    </p>
+  </div>
 </div>
