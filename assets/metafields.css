@@ -46,11 +46,6 @@
   font-size: 1.4rem;
 }
 
-.product-material-and-care-toggle.active + .product-material-and-care-content {
-  max-height: 500px; /* adjust to expected content height */
-  padding: 12px 16px; /* add vertical padding when expanded */
-}
-
 .product-material-and-care-toggle .product-material-and-care-accordion-icon {
   transition: transform 0.3s ease;
   transform-origin: center;
