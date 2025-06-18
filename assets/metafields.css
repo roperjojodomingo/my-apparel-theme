@@ -45,3 +45,12 @@
   margin: 0;
   font-size: 1.4rem;
 }
+
+.product-material-and-care-toggle .product-material-and-care-accordion-icon {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.product-material-and-care-toggle.active .product-material-and-care-accordion-icon {
+  transform: rotate(180deg);
+}
