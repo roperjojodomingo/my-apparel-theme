@@ -7,14 +7,18 @@
 
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
 
-<div class="product-material-and-care-container">
-  <input id="collapsible" class="toggle" type="checkbox">
-  <label class="product-material-and-care-container-toggle">Material and care</label>
-  <div class="collapsible-content">
-    <div class="content-inner">
-      <p>
-        {{ material_and_care }}
-      </p>
+<!--
+  <div class="product-material-and-care-container">
+    <input id="collapsible" class="toggle" type="checkbox">
+    <label class="product-material-and-care-container-toggle">Material and care</label>
+    <div class="collapsible-content">
+      <div class="content-inner">
+        <p>
+          {{ material_and_care }}
+        </p>
+      </div>
     </div>
   </div>
-</div>
+-->
+
+<button type="button" class="product-material-and-care-container-toggle">Open Collapsible</button>
