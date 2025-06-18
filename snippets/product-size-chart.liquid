@@ -1,0 +1,30 @@
+{% comment %}
+  Renders size chart pdf link
+
+  Accepts:
+  - size_chart_pdf: {File}
+{% endcomment %}
+
+{{ 'metafields.css' | asset_url | stylesheet_tag }}
+
+<div>
+  <label class="metafields-label">Material</label>
+  <table>
+    <tbody>
+      <tr>
+        <th>Material</th>
+        <td>{{ material }}</td>
+      </tr>
+      <tr>
+        <th>Fit</th>
+        <td>{{ fit }}</td>
+      </tr>
+      {% if origin %}
+        <tr>
+          <th>Origin</th>
+          <td>{{ origin }}</td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>
