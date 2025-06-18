@@ -2,10 +2,7 @@
   Renders product specs
 
   Accepts:
-  - material: {String}
-  - fit: {String}
-  - care: {String}
-  - origin: {String, optional}
+  - specs: {JSON}
 {% endcomment %}
 
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
@@ -14,20 +11,12 @@
   <label class="metafields-label">The Finer Details</label>
   <table>
     <tbody>
-      <tr>
-        <th>Material</th>
-        <td>{{ material }}</td>
-      </tr>
-      <tr>
-        <th>Fit</th>
-        <td>{{ fit }}</td>
-      </tr>
-      {% if origin %}
+      {% for key in specs %}
         <tr>
-          <th>Origin</th>
-          <td>{{ origin }}</td>
+          <th>{{ key }}</th>
+          <td>{{ parsed_specs[key] }}</td>
         </tr>
-      {% endif %}
+      {% endfor %}
     </tbody>
   </table>
 </div>
