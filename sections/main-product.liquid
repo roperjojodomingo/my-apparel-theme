@@ -208,7 +208,7 @@
                     origin: specs.origin
                   %}
                 {%- endif -%}
-                product.metafields.custom.size_chart_pdf
+                {{ product.metafields.custom.size_chart_pdf }}
               {%- when 'product_size_chart' -%}
                 {%- if product.metafields.custom.size_chart_pdf and product.metafields.custom.size_chart_pdf.url -%}
                   <h1>wewewe</h1>
