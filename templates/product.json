@@ -53,15 +53,6 @@
           "type": "product_specs",
           "settings": {}
         },
-        "collapsible_tab_QnUE4L": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
         "product_size_chart_Yrqr3r": {
           "type": "product_size_chart",
           "settings": {}
@@ -86,7 +77,6 @@
         "buy_buttons",
         "description",
         "product_specs_WVhJje",
-        "collapsible_tab_QnUE4L",
         "product_size_chart_Yrqr3r",
         "product_material_and_care_zAgjcL",
         "share"
