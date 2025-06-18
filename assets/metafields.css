@@ -20,6 +20,12 @@
   font-weight: 500;
 }
 
+.product-material-and-care-container {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  
+}
+
 .product-material-and-care-toggle {
   all: unset;
   background-color: #FFFFFF;
@@ -33,7 +39,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  border-bottom: 1px solid #ccc;
 }
 
 .product-material-and-care-content {
