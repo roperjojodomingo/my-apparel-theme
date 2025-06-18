@@ -38,10 +38,11 @@
 
 .product-material-and-care-content {
   padding: 4px 16px; 
+  display: none;
+  overflow: hidden;
 }
 
 .product-material-and-care-content p{
   margin: 0;
   font-size: 1.4rem;
-  
 }
