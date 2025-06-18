@@ -13,6 +13,18 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "announcement_FgxdDN": {
+          "type": "announcement",
+          "settings": {
+            "text": "Get 25% Off, ₱150 Off & Free Shipping on Your First Order",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_FgxdDN"
+      ],
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
