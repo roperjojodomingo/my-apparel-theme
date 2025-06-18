@@ -24,7 +24,6 @@ input[type='checkbox'] {
      display: none;
 }
 
-
  .product-material-and-care-container-toggle {
      display: block;
      font-size: 1.25rem;
@@ -55,4 +54,4 @@ input[type='checkbox'] {
  .toggle:checked + .product-material-and-care-container-toggle + .collapsible-content {
      max-height: 350px;
 }
- .t
+ 
