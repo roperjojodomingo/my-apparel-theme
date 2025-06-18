@@ -7,6 +7,14 @@
 
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
 
-<div>
-  <label class="metafields-label">Material and care</label>
+<div class="wrap-collabsible">
+  <input id="collapsible" class="toggle" type="checkbox">
+  <label for="collapsible" class="lbl-toggle">Material and care</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+      <p>
+        {{ material_and_care }}
+      </p>
+    </div>
+  </div>
 </div>
