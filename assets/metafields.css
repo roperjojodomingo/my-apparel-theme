@@ -5,7 +5,12 @@
   margin-bottom: 8px;
 }
 
-.check-size-link {
+.size-chart-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.size-chart-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
