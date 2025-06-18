@@ -7,7 +7,9 @@
 
 {{ 'metafields.css' | asset_url | stylesheet_tag }}
 
-<a href="{{ size_chart_pdf | file_url }}" class="size-chart-link">
-  <img src="{{ 'icon-ruler.svg' | asset_url }}" alt="" class="icon" width="20" height="20">
-  Check my size
-</a>
+<div class="size-chart-container">
+  <a href="{{ size_chart_pdf | file_url }}" class="size-chart-link">
+    <img src="{{ 'icon-ruler.svg' | asset_url }}" alt="" class="icon" width="20" height="20">
+    Check my size
+  </a>
+</div>
