@@ -20,3 +20,16 @@
     </p>
   </div>
 </div>
+
+<script>
+  var button = document.getElementsByClassName("product-material-and-care-toggle");
+    button.addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+</script>
